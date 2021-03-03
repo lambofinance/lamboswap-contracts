@@ -22,6 +22,7 @@ import SortButton from './SortButton'
 import { useTokenComparator } from './sorting'
 import { PaddedColumn, SearchInput, Separator } from './styleds'
 import AutoSizer from 'react-virtualized-auto-sizer'
+import Logo from './placeholder.jpg';
 
 interface CurrencySearchProps {
   isOpen: boolean
@@ -193,11 +194,11 @@ export function CurrencySearch({
               {selectedListInfo.current.logoURI ? (
                 <ListLogo
                   style={{ marginRight: 12 }}
-                  logoURI={selectedListInfo.current.logoURI}
+                  logoURI={`${Logo}`}
                   alt={`${selectedListInfo.current.name} list logo`}
                 />
               ) : null}
-              <TYPE.main id="currency-search-selected-list-name">{selectedListInfo.current.name}</TYPE.main>
+              <TYPE.main id="currency-search-selected-list-name">Lamboswao Default List</TYPE.main>
             </Row>
           ) : null}
           {/* <LinkStyledButton
