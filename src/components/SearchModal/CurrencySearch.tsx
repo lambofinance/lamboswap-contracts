@@ -198,7 +198,7 @@ export function CurrencySearch({
                   alt={`${selectedListInfo.current.name} list logo`}
                 />
               ) : null}
-              <TYPE.main id="currency-search-selected-list-name">Lamboswao Default List</TYPE.main>
+              <TYPE.main id="currency-search-selected-list-name">Lamboswap Default List</TYPE.main>
             </Row>
           ) : null}
           {/* <LinkStyledButton
