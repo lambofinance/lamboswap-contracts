@@ -22,7 +22,7 @@ import SortButton from './SortButton'
 import { useTokenComparator } from './sorting'
 import { PaddedColumn, SearchInput, Separator } from './styleds'
 import AutoSizer from 'react-virtualized-auto-sizer'
-import Logo from './placeholder.jpg';
+import Logo from './placeholder.jpg'
 
 interface CurrencySearchProps {
   isOpen: boolean
